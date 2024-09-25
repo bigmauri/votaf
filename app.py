@@ -7,8 +7,8 @@ def test():
     return jsonify({
         "version": "v0.0.1-alpha",
         "response": {
-                "type": "Text",
-            }
+                "type": "Text"
+        },
         "message": "test message",
         "alive": True
     })
