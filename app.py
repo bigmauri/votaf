@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/test', methods=['GET'])
+@app.route('/', methods=['GET'])
 def test():
     return jsonify({
         "version": "v0.0.1-alpha",
@@ -14,4 +14,4 @@ def test():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
