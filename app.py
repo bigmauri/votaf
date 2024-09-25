@@ -11,7 +11,6 @@ def test():
             }
         "message": "test message",
         "alive": True
-        }
     })
 
 if __name__ == '__main__':
